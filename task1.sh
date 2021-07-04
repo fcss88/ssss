@@ -1,5 +1,8 @@
 #!/bin/bash
-# my first govnocode 
+# my first bashscript 
 clear
-echo "hii"
+echo "Task1 Script"
 
+echo user $1
+echo dir $2
+sudo chown -R $1 $2 
