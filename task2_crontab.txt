@@ -1,0 +1,4 @@
+# My crontab 
+# 
+# run script every 10 minutes
+*/10 * * * * /home/scripts/ssss/task2.sh root Srak@161 >> /home/backup.log 2>&1
